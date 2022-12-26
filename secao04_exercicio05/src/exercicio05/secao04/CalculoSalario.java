@@ -24,7 +24,8 @@ public class CalculoSalario {
 
 		// Verifica se os valores inseridos pelo usuário são válidos.
 		if (horasTrabalhadas < 0 || valorHora < 0) {
-			System.out.println("O número de horas trabalhadas e o valor por hora devem ser positivos.");
+			System.out.println();
+			System.out.println("ATENÇÃO: O NÚMERO DE HORAS TRABALHADAS E O VALOR POR HORA DEVEM SER POSITIVOS!");
 			return;
 		}
 
