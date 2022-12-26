@@ -1,10 +1,13 @@
 package exercicio02.secao04;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CalculadoraAdicao {
 
 	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		
 		// Cria um objeto Scanner para ler os dados inseridos pelo usuário
 		Scanner sc = new Scanner(System.in);
 

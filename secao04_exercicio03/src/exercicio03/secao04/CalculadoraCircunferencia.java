@@ -1,5 +1,6 @@
 package exercicio03.secao04;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class CalculadoraCircunferencia {
@@ -7,6 +8,8 @@ public class CalculadoraCircunferencia {
 	private static final double PI = Math.PI;
 
 	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+
 		// Declara a variável que irá armazenar o valor do raio
 		float valorRaio;
 
