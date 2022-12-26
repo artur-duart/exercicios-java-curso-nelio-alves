@@ -8,7 +8,6 @@ public class Exercicio {
 	private static final DecimalFormat df = new DecimalFormat("#.###");
 
 	public static void main(String[] args) {
-
 		String product1 = "Computer";
 		String product2 = "Office desk";
 
@@ -36,6 +35,5 @@ public class Exercicio {
 
 		Locale.setDefault(Locale.US);
 		System.out.print("US decimal point: " + df.format(measure));
-
 	}
 }
