@@ -24,6 +24,8 @@ public class Exercicio {
 
 		float total = qntdePecas1 * valorPeca1 + qntdePecas2 * valorPeca2;
 
+		sc.close();
+
 		System.out.println();
 
 		System.out.printf("VALOR A PAGAR: U$ %.2f", total);
